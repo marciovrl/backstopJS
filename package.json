@@ -6,6 +6,7 @@
   "scripts": {
     "init": "node_modules/.bin/backstop init",
     "test": "node_modules/.bin/backstop test",
+    "reference": "node_modules/.bin/backstop reference",
     "approve": "node_modules/.bin/backstop approve"
   },
   "repository": {
