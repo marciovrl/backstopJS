@@ -1,0 +1,25 @@
+{
+  "name": "backstopjs-example",
+  "version": "1.0.0",
+  "description": "Example of Visual Regression Tests",
+  "main": "index.js",
+  "scripts": {
+    "init": "node_modules/.bin/backstop init",
+    "test": "node_modules/.bin/backstop test",
+    "approve": "node_modules/.bin/backstop approve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciovrl/backstopJS-example.git"
+  },
+  "author": "Márcio Lemos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marciovrl/backstopJS-example/issues"
+  },
+  "homepage": "https://github.com/marciovrl/backstopJS-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "backstopjs": "^5.0.1"
+  }
+}
