@@ -21,7 +21,7 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "BackstopJS Homepage Google",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://www.google.com/",
       "readyEvent": "",
@@ -37,8 +37,31 @@
       "expect": 0,
       "misMatchThreshold": 0.5,
       "requireSameDimensions": true
+    },
+
+    {
+      "label": "BackstopJS search Google",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://www.google.com/",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.5,
+      "requireSameDimensions": true,
+      "keyPressSelectors": [
+        { "selector": "[name='q']", "keyPress": "marcio lemos linkedin" }
+      ],
+      "clickSelectors": ["[name='btnK']"],
+      "postInteractionWait": 10
     }
   ],
+
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "backstop_data/bitmaps_test",
