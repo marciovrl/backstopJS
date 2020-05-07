@@ -1,11 +1,11 @@
 {
   "name": "backstopjs-example",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Example of Visual Regression Tests",
   "main": "index.js",
   "scripts": {
     "init": "node_modules/.bin/backstop init",
-    "test": "node_modules/.bin/backstop test",
+    "test": "node_modules/.bin/backstop test --configPath=test/backstop.config.js",
     "reference": "node_modules/.bin/backstop reference",
     "approve": "node_modules/.bin/backstop approve"
   },
